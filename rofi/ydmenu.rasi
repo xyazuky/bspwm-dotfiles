@@ -1,0 +1,68 @@
+/**
+ * Dmenu-like prompt.
+*/
+
+* {
+    background-color:            #09090F;
+    border-color:                #09090F;
+    text-color:                  #c7b198;
+    font:                        "FiraCode Nerd Font 14";
+    prompt-padding:              2px;
+    prompt-background:           #09090F;
+    prompt-foreground:           #ea6962;
+    prompt-font:                 "FiraCode Nerd Font 15";
+
+    selected-normal-background: #09090F;
+    selected-normal-foreground: #09090F;
+
+}
+#window {
+  anchor:          north;
+  location:        north;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  children: [horibox];
+}
+#horibox {
+  orientation: horizontal;
+  children: [ textbox-prompt-colon,entry, listview ];
+}
+
+#textbox-prompt-colon {
+  content: "捜";
+  expand: false;
+  text-color:   @prompt-foreground;
+  font: @prompt-font;
+  padding: -1px 10px 0px 10px;
+}
+#prompt {
+  enabled: false;
+  padding:            @prompt-padding;
+  background-color:   @prompt-background;
+  text-color:         @prompt-foreground;
+  font:               @prompt-font;
+}
+
+#listview {
+  layout:  horizontal;
+  lines: 100;
+}
+#entry {
+  padding: 2px;
+  expand:  false;
+  width: 10em;
+  text-color: @prompt-foreground;
+}
+#element{
+  padding: 2px 8px;
+}
+
+#element selected {
+  background-color:    @selected-normal-background;
+  text-color:          #09090F;
+}
+
+element.selected.active {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}

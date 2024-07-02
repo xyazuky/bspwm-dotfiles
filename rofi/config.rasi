@@ -1,0 +1,6 @@
+configuration {
+modes: "drun";
+}
+
+@theme "ydmenu"
+
