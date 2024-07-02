@@ -1,0 +1,45 @@
+{
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "window.menuBarVisibility": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+    "editor.minimap.side": "right",
+    "extensions.autoUpdate": false,
+    "workbench.statusBar.visible": true,
+    "terminal.external.linuxExec": "Alacritty",
+    
+    "terminal.explorerKind": "both",
+    "terminal.sourceControlRepositoriesKind": "both",
+    "telemetry.telemetryLevel": "off",
+    "files.associations": {
+        "*.css": "html"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontSize": 16,
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#09090F",
+        "list.inactiveSelectionBackground": "#09090F",
+        "sideBar.background": "#09090F",
+        "editor.background": "#09090F",
+        "sideBarSectionHeader.background": "#09090F",
+        "statusBar.background": "#09090F",
+        "scrollbarSlider.activeBackground": "#09090F",
+        "scrollbarSlider.hoverBackground": "#09090F",
+        "badge.background": "#09090F",
+        "editorGroupHeader.noTabsBackground": "#09090F",
+        "editorGroup.emptyBackground": "#09090F",
+        "editorGroupHeader.tabsBackground": "#09090F",
+        "tab.activeBackground": "#09090F",
+        "tab.activeForeground": "#c7b198",
+        "tab.inactiveBackground": "#09090F",
+        "terminal.background": "#09090F",
+        "panel.background": "#09090F",
+        "panelSectionHeader.background": "#09090F",
+        "panelTitle.activeBorder": "#09090F"
+    }
+}
